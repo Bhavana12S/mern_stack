@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#Folder structure
+mern-agent-task-app/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── uploads/              # (used by multer for temp storage)
+│   ├── server.js
+│   └── .env
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   └── Upload.jsx
+│   │   └── App.js
+│   ├── .env
+│   └── package.json
+├── README.md
+
+
